@@ -25,7 +25,7 @@ Our project will consist of a series of .html pages that we can link together us
 Each page after the first one will:
 * have a unique filename ending with `.html`;
 * have the same title in its `<title>` tag as every other page;
-* have, as its heading, the text of the anchor tag the user clicked on to get to that page;
+* have, as its heading, the text of the anchor tag from the previous page that the user clicked on to get to _this_ page;
 * have a `<hr>` tags after the heading and after the main text, giving the sections some basic separation; 
 * have some "main text" that describes what happens once the user takes the action that got them there;
 * have at least one link (but preferably more!) that describes a possible action;
